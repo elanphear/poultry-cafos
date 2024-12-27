@@ -1,0 +1,30 @@
+name: cafo
+channels:
+  - conda-forge
+dependencies:
+  ##- cudatoolkit=11.0.3
+  ##- fiona
+  ##- gdal>3.0
+  ##- ipykernel
+  ##- matplotlib
+  ##- numpy
+  ##- osmnx
+  ##- pandas
+  - pip
+  ##- python
+  ##- pytorch-gpu
+  ##- rasterio
+  ##- rtree
+  ##- scikit-image
+  ##- scikit-learn
+  ##- shapely
+  - spyder
+  ##- torchvision
+  - pip:
+    ##- black>=21.4b0
+    ##- flake8>=3.8
+    ##- isort[colors]>=5.8
+    ##- mypy>=0.900
+    - parse
+    ##- segmentation-models-pytorch>=0.2
+    ##- tensorboard
